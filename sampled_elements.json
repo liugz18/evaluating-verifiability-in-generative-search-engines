@@ -1,0 +1,2620 @@
+[
+    {
+        "id": "b85e189e5c5b1cdf7360588260b7e43b4b35253c565a3147bdd87e2b6da09af4-neeva",
+        "query": "who is the leading three point shooter in the nba",
+        "response": "Stephen Curry is widely recognised as the leading three point shooter in the NBA, having developed into one of the NBA's greatest-ever shooters over the past decade.[1]He leads the NBA in 3-point shots made and attempted[2], and has the 6th best 3-point shooting percentage in the NBA.[3]He is followed by Ray Allen (40.0%)[2], Reggie Miller (39.5%)[2][4], and Kyle Korver (42.9%).[3]",
+        "split": "nq_table_without_short_answer",
+        "system_name": "neeva",
+        "citations": [
+            {
+                "text": "[1]",
+                "start_index": 165,
+                "end_index": 168,
+                "link_target": "https://www.sportskeeda.com/basketball/2020-21-nba-season-top-5-3-point-shooters-league"
+            },
+            {
+                "text": "[2]",
+                "start_index": 220,
+                "end_index": 223,
+                "link_target": "https://www.basketball-reference.com/leaders/fg3_career.html"
+            },
+            {
+                "text": "[3]",
+                "start_index": 285,
+                "end_index": 288,
+                "link_target": "https://www.sportskeeda.com/basketball/top-10-best-3-point-shooters-nba-history"
+            },
+            {
+                "text": "[2]",
+                "start_index": 323,
+                "end_index": 326,
+                "link_target": "https://www.basketball-reference.com/leaders/fg3_career.html"
+            },
+            {
+                "text": "[2]",
+                "start_index": 349,
+                "end_index": 352,
+                "link_target": "https://www.basketball-reference.com/leaders/fg3_career.html"
+            },
+            {
+                "text": "[4]",
+                "start_index": 352,
+                "end_index": 355,
+                "link_target": "https://en.wikipedia.org/wiki/List_of_National_Basketball_Association_career_3-point_scoring_leaders"
+            },
+            {
+                "text": "[3]",
+                "start_index": 381,
+                "end_index": 384,
+                "link_target": "https://www.sportskeeda.com/basketball/top-10-best-3-point-shooters-nba-history"
+            }
+        ],
+        "statements_to_citation_texts": {
+            "Stephen Curry is widely recognised as the leading three point shooter in the NBA, having developed into one of the NBA's greatest-ever shooters over the past decade.[1]": [
+                "[1]"
+            ],
+            "He leads the NBA in 3-point shots made and attempted[2], and has the 6th best 3-point shooting percentage in the NBA.[3]": [
+                "[2]",
+                "[3]"
+            ],
+            "He is followed by Ray Allen (40.0%)[2], Reggie Miller (39.5%)[2][4], and Kyle Korver (42.9%).[3]": [
+                "[2]",
+                "[4]",
+                "[3]"
+            ]
+        },
+        "annotation": {
+            "fluency": "Strongly Agree",
+            "perceived_utility": "Strongly Agree",
+            "statement_to_annotation": {
+                "Stephen Curry is widely recognised as the leading three point shooter in the NBA, having developed into one of the NBA's greatest-ever shooters over the past decade.[1]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "Over the past decade, Stephen Curry has developed into one of the NBA's greatest-ever shooters and tops our list of the best 3-point scorers in the league."
+                        }
+                    ]
+                },
+                "He leads the NBA in 3-point shots made and attempted[2], and has the 6th best 3-point shooting percentage in the NBA.[3]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Citations Contradict Each Other",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Citation Partially Supports Statement",
+                            "evidence": "(Curry is listed with top rank for 3-pt)"
+                        },
+                        {
+                            "citation_text": "[3]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        }
+                    ]
+                },
+                "He is followed by Ray Allen (40.0%)[2], Reggie Miller (39.5%)[2][4], and Kyle Korver (42.9%).[3]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "(Ranking list, shows ordering)"
+                        },
+                        {
+                            "citation_text": "[4]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "(Table shows rank, skipping Harden at #3)"
+                        },
+                        {
+                            "citation_text": "[3]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "(List has Allen, Miller and Korver in positions behind Curry)"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "id": "264f98e0a9bbe5afdb992a4aa67709739589442bf4d4cfa42ceb09aaeb275903-perplexity",
+        "query": "who holds the record for longest home run",
+        "response": "Joey Meyer holds the record for the longest home run in professional baseball history, hitting a 582-foot home run while playing for the Triple-A Denver Zephyrs in 1987.[1][2] Babe Ruth's longest home run was 575 feet, but there are no accurate measurements of his mythical home runs beyond 600 feet.[3] Miguel San\u00f3 hit a 495-foot home run, which is the longest measured by Statcast.[4] Reggie Jackson hit the farthest home run in MLB All-Star Game history at 539 feet.[5]",
+        "split": "nq_paragraph_without_short_answer",
+        "system_name": "perplexity",
+        "citations": [
+            {
+                "text": "[1]",
+                "start_index": 169,
+                "end_index": 172,
+                "link_target": "https://www.nbcsports.com/philadelphia/phillies/what-longest-home-run-mlb-history"
+            },
+            {
+                "text": "[2]",
+                "start_index": 172,
+                "end_index": 175,
+                "link_target": "https://sports.yahoo.com/longest-home-run-mlb-history-150050612.html"
+            },
+            {
+                "text": "[3]",
+                "start_index": 300,
+                "end_index": 303,
+                "link_target": "https://bleacherreport.com/articles/2698852-the-longest-home-runs-in-mlb-history"
+            },
+            {
+                "text": "[4]",
+                "start_index": 383,
+                "end_index": 386,
+                "link_target": "https://www.mlb.com/news/longest-homers-measured-by-statcast-c293547722"
+            },
+            {
+                "text": "[5]",
+                "start_index": 469,
+                "end_index": 472,
+                "link_target": "https://sportsnaut.com/longest-home-run-ever/"
+            }
+        ],
+        "statements_to_citation_texts": {
+            "Joey Meyer holds the record for the longest home run in professional baseball history, hitting a 582-foot home run while playing for the Triple-A Denver Zephyrs in 1987.[1][2]": [
+                "[1]",
+                "[2]"
+            ],
+            "Babe Ruth's longest home run was 575 feet, but there are no accurate measurements of his mythical home runs beyond 600 feet.[3]": [
+                "[3]"
+            ],
+            "Miguel San\u00f3 hit a 495-foot home run, which is the longest measured by Statcast.[4]": [
+                "[4]"
+            ],
+            "Reggie Jackson hit the farthest home run in MLB All-Star Game history at 539 feet.[5]": [
+                "[5]"
+            ]
+        },
+        "annotation": {
+            "fluency": "Agree",
+            "perceived_utility": "Strongly Agree",
+            "statement_to_annotation": {
+                "Joey Meyer holds the record for the longest home run in professional baseball history, hitting a 582-foot home run while playing for the Triple-A Denver Zephyrs in 1987.[1][2]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "The longest verified home run in American professional baseball history didn\u2019t even happen in the majors. In 1987, Joey Meyer of the Triple-A Denver Zephyrs launched a moonshot into the second deck of Mile High Stadium. City of Denver engineer Jerry Tennyson was able to verify the distance of the home run at 582 feet."
+                        },
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "The longest verified home run in American professional baseball history didn\u2019t even happen in the majors. In 1987, Joey Meyer of the Triple-A Denver Zephyrs launched a moonshot into the second deck of Mile High Stadium. City of Denver engineer Jerry Tennyson was able to verify the distance of the home run at 582 feet."
+                        }
+                    ]
+                },
+                "Babe Ruth's longest home run was 575 feet, but there are no accurate measurements of his mythical home runs beyond 600 feet.[3]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[3]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "Babe Ruth, 575 Feet (1921) Although there are multiple tales of Babe Ruth's hitting his mythical home run beyond 600 feet, no accurate measuring tools existed during his playing days."
+                        }
+                    ]
+                },
+                "Miguel San\u00f3 hit a 495-foot home run, which is the longest measured by Statcast.[4]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[4]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        }
+                    ]
+                },
+                "Reggie Jackson hit the farthest home run in MLB All-Star Game history at 539 feet.[5]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[5]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "There\u2019s no doubt who hit the farthest home run in MLB All-Star Game history. In the 1971 Midsummer Classic, slugger Reggie Jackson sent Dock Ellis\u2019 pitch practically out of Tiger Stadium, with the ball bouncing off the roof as everyone in attendance just sat back in shock. The ESPN Home Run Tracker listed it at 539 feet, one of the longest homers hit in the recorded era."
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "id": "e2a2c335bd993271179a6211f21ab770c0019c922c33fed5bea0a87835ce7529-perplexity",
+        "query": "Should renewable energy sources receive government subsidies?",
+        "response": "The question of whether renewable energy sources should receive government subsidies is a complex one[1][2][3]. While some argue that subsidies are necessary to combat climate change and promote the growth of renewable energy[4], others believe that companies should be able to compete on their own merits without government intervention[3]. Tax breaks are an important form of subsidy for renewables[5].",
+        "split": "davinci_debate",
+        "system_name": "perplexity",
+        "citations": [
+            {
+                "text": "[1]",
+                "start_index": 101,
+                "end_index": 104,
+                "link_target": "https://www.forbes.com/sites/uhenergy/2018/03/23/renewable-energy-subsidies-yes-or-no/"
+            },
+            {
+                "text": "[2]",
+                "start_index": 104,
+                "end_index": 107,
+                "link_target": "https://www.lse.ac.uk/granthaminstitute/explainers/do-renewable-energy-technologies-need-government-subsidies/"
+            },
+            {
+                "text": "[3]",
+                "start_index": 107,
+                "end_index": 110,
+                "link_target": "https://uh.edu/uh-energy/newsletter/features/symposium-3-2018.php"
+            },
+            {
+                "text": "[4]",
+                "start_index": 225,
+                "end_index": 228,
+                "link_target": "https://www.fastcompany.com/90776050/who-exactly-benefits-from-renewable-energy-subsidies-the-answer-will-surprise-you"
+            },
+            {
+                "text": "[3]",
+                "start_index": 337,
+                "end_index": 340,
+                "link_target": "https://uh.edu/uh-energy/newsletter/features/symposium-3-2018.php"
+            },
+            {
+                "text": "[5]",
+                "start_index": 400,
+                "end_index": 403,
+                "link_target": "https://news.climate.columbia.edu/2018/03/16/how-much-do-renewables-actually-depend-on-tax-breaks/"
+            }
+        ],
+        "statements_to_citation_texts": {
+            "The question of whether renewable energy sources should receive government subsidies is a complex one[1][2][3].": [
+                "[1]",
+                "[2]",
+                "[3]"
+            ],
+            "While some argue that subsidies are necessary to combat climate change and promote the growth of renewable energy[4], others believe that companies should be able to compete on their own merits without government intervention[3].": [
+                "[4]",
+                "[3]"
+            ],
+            "Tax breaks are an important form of subsidy for renewables[5].": [
+                "[5]"
+            ]
+        },
+        "annotation": {
+            "fluency": "Strongly Agree",
+            "perceived_utility": "Agree",
+            "statement_to_annotation": {
+                "The question of whether renewable energy sources should receive government subsidies is a complex one[1][2][3].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "It\u2019s not a simple question, and finding the right answer requires an understanding of global needs and policies, as well as some hard decisions."
+                        },
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Citation Provides No Support for Statement",
+                            "evidence": null
+                        },
+                        {
+                            "citation_text": "[3]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "The panel tackled the complex issue from a variety of viewpoints."
+                        }
+                    ]
+                },
+                "While some argue that subsidies are necessary to combat climate change and promote the growth of renewable energy[4], others believe that companies should be able to compete on their own merits without government intervention[3].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[4]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        },
+                        {
+                            "citation_text": "[3]",
+                            "citation_supports": "Citation Partially Supports Statement",
+                            "evidence": "We need more renewable companies that are competitive on their own merits. Companies need to think beyond subsidies,\u201d said Tubb."
+                        }
+                    ]
+                },
+                "Tax breaks are an important form of subsidy for renewables[5].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[5]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "id": "1d56b03c7d287e27656122ff5e827aa0c838d6d16535956ce3bcf4e1197a3485-perplexity",
+        "query": "become teacher UK",
+        "response": "To become a teacher in the UK, you must have a degree and gain Qualified Teacher Status (QTS) by following a programme of Initial Teacher Training[1]. Entry requirements include at least a GCSE grade B/5 (or above) or equivalent in English and maths[2], as well as grade 4 (C) or above in GCSE Science for primary school teachers[3]. The University of Kentucky College of Education offers teacher education programs to help prepare individuals to become teachers[4].",
+        "split": "wikihow_keywords",
+        "system_name": "perplexity",
+        "citations": [
+            {
+                "text": "[1]",
+                "start_index": 146,
+                "end_index": 149,
+                "link_target": "https://www.ucas.com/teaching-in-england"
+            },
+            {
+                "text": "[2]",
+                "start_index": 249,
+                "end_index": 252,
+                "link_target": "https://www.prospects.ac.uk/jobs-and-work-experience/job-sectors/teacher-training-and-education/how-to-become-a-teacher"
+            },
+            {
+                "text": "[3]",
+                "start_index": 329,
+                "end_index": 332,
+                "link_target": "https://www.gov.uk/apply-for-teacher-training"
+            },
+            {
+                "text": "[4]",
+                "start_index": 462,
+                "end_index": 465,
+                "link_target": "https://education.uky.edu/admissions/become-a-teacher-at-uk/"
+            }
+        ],
+        "statements_to_citation_texts": {
+            "To become a teacher in the UK, you must have a degree and gain Qualified Teacher Status (QTS) by following a programme of Initial Teacher Training[1].": [
+                "[1]"
+            ],
+            "Entry requirements include at least a GCSE grade B/5 (or above) or equivalent in English and maths[2], as well as grade 4 (C) or above in GCSE Science for primary school teachers[3].": [
+                "[2]",
+                "[3]"
+            ],
+            "The University of Kentucky College of Education offers teacher education programs to help prepare individuals to become teachers[4].": [
+                "[4]"
+            ]
+        },
+        "annotation": {
+            "fluency": "Disagree",
+            "perceived_utility": "Neutral",
+            "statement_to_annotation": {
+                "To become a teacher in the UK, you must have a degree and gain Qualified Teacher Status (QTS) by following a programme of Initial Teacher Training[1].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Partially Supports Statement",
+                            "evidence": "To teach in a state school in England, you must have a degree, and gain Qualified Teacher Status (QTS) by following a programme of Initial Teacher Training (ITT). You can teach in independent schools, academies, and free schools in England without QTS, but it\u2019s a definite advantage to have it."
+                        }
+                    ]
+                },
+                "Entry requirements include at least a GCSE grade B/5 (or above) or equivalent in English and maths[2], as well as grade 4 (C) or above in GCSE Science for primary school teachers[3].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        },
+                        {
+                            "citation_text": "[3]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        }
+                    ]
+                },
+                "The University of Kentucky College of Education offers teacher education programs to help prepare individuals to become teachers[4].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[4]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "If you are considering becoming a teacher, the University of Kentucky College of Education is the place for you! Bachelor\u2019s degree programs for aspiring teachers"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "id": "14c103cafe134611ecf0c28cf2acdf883cab94134d60c0b8677974530221043e-bing_chat",
+        "query": "Should surveillance cameras be allowed in public spaces?",
+        "response": "There are arguments for and against surveillance cameras in public spaces. Some people believe that surveillance cameras provide added security and can help law enforcement solve crimes[1] [2]. Others argue that they invade privacy[3]. What do you think?",
+        "split": "davinci_debate",
+        "system_name": "bing_chat",
+        "citations": [
+            {
+                "text": "[1]",
+                "start_index": 185,
+                "end_index": 188,
+                "link_target": "https://www.wcctv.com/the-role-of-video-surveillance-in-public-spaces/"
+            },
+            {
+                "text": "[2]",
+                "start_index": 189,
+                "end_index": 192,
+                "link_target": "https://tomorrow.city/a/public-surveillance-cameras"
+            },
+            {
+                "text": "[3]",
+                "start_index": 231,
+                "end_index": 234,
+                "link_target": "https://blog.zositech.com/benefits-of-surveillance-cameras-in-public-places/"
+            }
+        ],
+        "statements_to_citation_texts": {
+            "There are arguments for and against surveillance cameras in public spaces.": [],
+            "Some people believe that surveillance cameras provide added security and can help law enforcement solve crimes[1] [2].": [
+                "[1]",
+                "[2]"
+            ],
+            "Others argue that they invade privacy[3].": [
+                "[3]"
+            ],
+            "What do you think?": []
+        },
+        "annotation": {
+            "fluency": "Agree",
+            "perceived_utility": "Strongly Agree",
+            "statement_to_annotation": {
+                "There are arguments for and against surveillance cameras in public spaces.": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": null,
+                    "citation_annotations": null
+                },
+                "Some people believe that surveillance cameras provide added security and can help law enforcement solve crimes[1] [2].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Partially Supports Statement",
+                            "evidence": "Video surveillance footage is beneficial when identifying potential suspects, but it is also highly helpful throughout the entire legal process."
+                        },
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Citation Partially Supports Statement",
+                            "evidence": "t works on different levels. Today it is hard to find a legal principle that does not allow audiovisual footage obtained in public spaces by an institutional entity to be used as evidence in court. The widespread use of cameras has changed the very nature of crimes and the manner in which they are pursued. They enable records to be kept of offenders and surveillance to be extended to focus on large groups."
+                        }
+                    ]
+                },
+                "Others argue that they invade privacy[3].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[3]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        }
+                    ]
+                },
+                "What do you think?": {
+                    "statement_is_verification_worthy": false,
+                    "statement_supported": null,
+                    "citation_annotations": null
+                }
+            }
+        }
+    },
+    {
+        "id": "dd16fb875c6fc532681ad32747a9dc80318da8a39b21ddc08bdd3f7f860d5cf2-neeva",
+        "query": "when was the last time usa won world cup",
+        "response": "The United States has won four World Cup titles, in 1991, 1999, 2015 and 2019[1], making them the only team to have won more than two titles.[1]The USMNT has participated in ten World Cups since 1930, with their best result being a third place finish in 1930.[2]The USMNT returned to the World Cup in 1990 and has participated in every World Cup since then until 2018.[2]They returned to the World Cup by qualifying for the 2022 edition.[3]Therefore, the last time the USA won the World Cup was in 2019.",
+        "split": "nq_table_without_short_answer",
+        "system_name": "neeva",
+        "citations": [
+            {
+                "text": "[1]",
+                "start_index": 77,
+                "end_index": 80,
+                "link_target": "https://www.history.com/this-day-in-history/us-womens-soccer-team-wins-fourth-world-cup-title#:~:text=With%20four%20World%20Cup%20wins%E2%80%94in%201991%2C%201999%2C%202015,than%20Germany%20has%20won%20more%20than%20one%20title%29."
+            },
+            {
+                "text": "[1]",
+                "start_index": 141,
+                "end_index": 144,
+                "link_target": "https://www.history.com/this-day-in-history/us-womens-soccer-team-wins-fourth-world-cup-title#:~:text=With%20four%20World%20Cup%20wins%E2%80%94in%201991%2C%201999%2C%202015,than%20Germany%20has%20won%20more%20than%20one%20title%29."
+            },
+            {
+                "text": "[2]",
+                "start_index": 259,
+                "end_index": 262,
+                "link_target": "https://en.wikipedia.org/wiki/United_States_at_the_FIFA_World_Cup"
+            },
+            {
+                "text": "[2]",
+                "start_index": 368,
+                "end_index": 371,
+                "link_target": "https://en.wikipedia.org/wiki/United_States_at_the_FIFA_World_Cup"
+            },
+            {
+                "text": "[3]",
+                "start_index": 437,
+                "end_index": 440,
+                "link_target": "https://www.sportingnews.com/us/soccer/news/has-usa-won-world-cup-soccer-usmnt-history-results-list/ngh0bzvajkdd7qfrwojd8tij"
+            }
+        ],
+        "statements_to_citation_texts": {
+            "The United States has won four World Cup titles, in 1991, 1999, 2015 and 2019[1], making them the only team to have won more than two titles.[1]": [
+                "[1]"
+            ],
+            "The USMNT has participated in ten World Cups since 1930, with their best result being a third place finish in 1930.[2]": [
+                "[2]"
+            ],
+            "The USMNT returned to the World Cup in 1990 and has participated in every World Cup since then until 2018.[2]": [
+                "[2]"
+            ],
+            "They returned to the World Cup by qualifying for the 2022 edition.[3]": [
+                "[3]"
+            ],
+            "Therefore, the last time the USA won the World Cup was in 2019.": []
+        },
+        "annotation": {
+            "fluency": "Agree",
+            "perceived_utility": "Agree",
+            "statement_to_annotation": {
+                "The United States has won four World Cup titles, in 1991, 1999, 2015 and 2019[1], making them the only team to have won more than two titles.[1]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "With four World Cup wins\u2014in 1991, 1999, 2015 and 2019\u2014the U.S. is the only team to have won more than two titles (no country other than Germany has won more than one title)."
+                        }
+                    ]
+                },
+                "The USMNT has participated in ten World Cups since 1930, with their best result being a third place finish in 1930.[2]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        }
+                    ]
+                },
+                "The USMNT returned to the World Cup in 1990 and has participated in every World Cup since then until 2018.[2]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "The United States participated in every World Cup from 1990 through 2014, but did not qualify in 2018, marking first time the team had missed a World Cup since 1986."
+                        }
+                    ]
+                },
+                "They returned to the World Cup by qualifying for the 2022 edition.[3]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[3]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "It took until the final matchday of qualifying, but the USA confirmed a spot at the 2022 men's World Cup in March to become one of the final qualifiers to the 32-team event, despite a 2-0 loss to Panama in the final match."
+                        }
+                    ]
+                },
+                "Therefore, the last time the USA won the World Cup was in 2019.": {
+                    "statement_is_verification_worthy": false,
+                    "statement_supported": null,
+                    "citation_annotations": null
+                }
+            }
+        }
+    },
+    {
+        "id": "f1d874464395ffd37273f7f9ae2bceed18c4472d8f07e80dc5fd125ce322eb0d-you",
+        "query": "whitney houston i will always love you who wrote it",
+        "response": "\"I Will Always Love You\" was written and originally recorded by American singer-songwriter Dolly Parton in 1973 [1][2]. The song was later covered by Whitney Houston for her 1992 film The Bodyguard.",
+        "split": "nq_table_with_short_answer",
+        "system_name": "you",
+        "citations": [
+            {
+                "text": "[1]",
+                "start_index": 112,
+                "end_index": 115,
+                "link_target": "https://en.wikipedia.org/wiki/I_Will_Always_Love_You"
+            },
+            {
+                "text": "[2]",
+                "start_index": 115,
+                "end_index": 118,
+                "link_target": "https://www.goodhousekeeping.com/life/entertainment/a30570197/dolly-parton-i-will-always-love-you-lyrics-meaning/"
+            }
+        ],
+        "statements_to_citation_texts": {
+            "\"I Will Always Love You\" was written and originally recorded by American singer-songwriter Dolly Parton in 1973 [1][2].": [
+                "[1]",
+                "[2]"
+            ],
+            "The song was later covered by Whitney Houston for her 1992 film The Bodyguard.": []
+        },
+        "annotation": {
+            "fluency": "Strongly Agree",
+            "perceived_utility": "Strongly Agree",
+            "statement_to_annotation": {
+                "\"I Will Always Love You\" was written and originally recorded by American singer-songwriter Dolly Parton in 1973 [1][2].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "\"I Will Always Love You\" is a song written and originally recorded in 1973 by American singer-songwriter Dolly Parton."
+                        },
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        }
+                    ]
+                },
+                "The song was later covered by Whitney Houston for her 1992 film The Bodyguard.": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": null,
+                    "citation_annotations": null
+                }
+            }
+        }
+    },
+    {
+        "id": "465af8273fd54b1d4d973d8bf383999624112b59ca0c163cec2ddd92f55a5aed-neeva",
+        "query": "when do you get the ruby play button",
+        "response": "The Custom Play Button or Ruby Play Button is a creator award given to YouTubers for reaching 50 million subscribers.[1]It features a play button triangle with a large dark red crystal and is awarded to channels that reach or surpass 100 million subscribers.[1][2]",
+        "split": "nq_list_without_short_answer",
+        "system_name": "neeva",
+        "citations": [
+            {
+                "text": "[1]",
+                "start_index": 117,
+                "end_index": 120,
+                "link_target": "https://youtube.fandom.com/wiki/Custom_Play_Button"
+            },
+            {
+                "text": "[1]",
+                "start_index": 258,
+                "end_index": 261,
+                "link_target": "https://youtube.fandom.com/wiki/Custom_Play_Button"
+            },
+            {
+                "text": "[2]",
+                "start_index": 261,
+                "end_index": 264,
+                "link_target": "https://en.wikipedia.org/wiki/YouTube_Creator_Awards"
+            }
+        ],
+        "statements_to_citation_texts": {
+            "The Custom Play Button or Ruby Play Button is a creator award given to YouTubers for reaching 50 million subscribers.[1]": [
+                "[1]"
+            ],
+            "It features a play button triangle with a large dark red crystal and is awarded to channels that reach or surpass 100 million subscribers.[1][2]": [
+                "[1]",
+                "[2]"
+            ]
+        },
+        "annotation": {
+            "fluency": "Strongly Agree",
+            "perceived_utility": "Strongly Agree",
+            "statement_to_annotation": {
+                "The Custom Play Button or Ruby Play Button is a creator award given to YouTubers for reaching 50 million subscribers.[1]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "The Custom Play Button, also known as the Ruby Play Button is a creator award given to YouTubers for reaching 50 million subscribers"
+                        }
+                    ]
+                },
+                "It features a play button triangle with a large dark red crystal and is awarded to channels that reach or surpass 100 million subscribers.[1][2]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Provides No Support for Statement",
+                            "evidence": null
+                        },
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "id": "ce076d09d2785e97f0ed6717987194d68a3fe0bd23e31a09873f9786e892da23-perplexity",
+        "query": "which wizard of oz character didn't have a heart",
+        "response": "The Tin Woodman didn't have a heart[1][2][3]. The Scarecrow didn't have a brain[4][2][3]. The Cowardly Lion didn't have courage[3].",
+        "split": "nq_list_with_short_answer",
+        "system_name": "perplexity",
+        "citations": [
+            {
+                "text": "[1]",
+                "start_index": 35,
+                "end_index": 38,
+                "link_target": "https://en.wikipedia.org/wiki/Tin_Woodman"
+            },
+            {
+                "text": "[2]",
+                "start_index": 38,
+                "end_index": 41,
+                "link_target": "https://www.britannica.com/topic/Tin-Man"
+            },
+            {
+                "text": "[3]",
+                "start_index": 41,
+                "end_index": 44,
+                "link_target": "https://hamiltoncs.org/lit232/uncategorized/no-heart-no-brain-no-courage/"
+            },
+            {
+                "text": "[4]",
+                "start_index": 79,
+                "end_index": 82,
+                "link_target": "https://www.reddit.com/r/Showerthoughts/comments/9kho82/in_the_wizard_of_oz_the_scarecrow_didnt_have_a/"
+            },
+            {
+                "text": "[2]",
+                "start_index": 82,
+                "end_index": 85,
+                "link_target": "https://www.britannica.com/topic/Tin-Man"
+            },
+            {
+                "text": "[3]",
+                "start_index": 85,
+                "end_index": 88,
+                "link_target": "https://hamiltoncs.org/lit232/uncategorized/no-heart-no-brain-no-courage/"
+            },
+            {
+                "text": "[3]",
+                "start_index": 127,
+                "end_index": 130,
+                "link_target": "https://hamiltoncs.org/lit232/uncategorized/no-heart-no-brain-no-courage/"
+            }
+        ],
+        "statements_to_citation_texts": {
+            "The Tin Woodman didn't have a heart[1][2][3].": [
+                "[1]",
+                "[2]",
+                "[3]"
+            ],
+            "The Scarecrow didn't have a brain[4][2][3].": [
+                "[4]",
+                "[2]",
+                "[3]"
+            ],
+            "The Cowardly Lion didn't have courage[3].": [
+                "[3]"
+            ]
+        },
+        "annotation": {
+            "fluency": "Strongly Agree",
+            "perceived_utility": "Strongly Agree",
+            "statement_to_annotation": {
+                "The Tin Woodman didn't have a heart[1][2][3].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "The Tin Woodman states unequivocally that he has neither heart nor brain, but cares nothing for the loss of his brain."
+                        },
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Citation Partially Supports Statement",
+                            "evidence": "On the long journey to the Emerald City, Dorothy and Toto are joined by the Scarecrow, who wishes he had brains; the Tin Woodman, who longs for a heart; and the Cowardly Lion, who seeks courage."
+                        },
+                        {
+                            "citation_text": "[3]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "While the Tin Woodman is literally heartless he does not act that way because typically someone who would be described as heartless would not cry over killing a bug."
+                        }
+                    ]
+                },
+                "The Scarecrow didn't have a brain[4][2][3].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[4]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "In The Wizard of Oz, the scarecrow didn't have a brain and the tin man didn't have a heart."
+                        },
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "On the long journey to the Emerald City, Dorothy and Toto are joined by the Scarecrow, who wishes he had brains; the Tin Woodman, who longs for a heart; and the Cowardly Lion, who seeks courage."
+                        },
+                        {
+                            "citation_text": "[3]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        }
+                    ]
+                },
+                "The Cowardly Lion didn't have courage[3].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[3]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "The Scarecrow, the Tin Woodman and the Cowardly Lion each have a \u201cmissing\u201d characteristic that motivates them to travel with Dorothy to the Wizard of Oz- the Scarecrow wants a brain, the Tin Woodman wishes for a heart, and the Cowardly Lion yearns for courage."
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "id": "eeaaf7e70a6f6c70ef952a9ca6bf33d24d1e828cd00a92e8c020695ae49336f7-neeva",
+        "query": "Is there an advantage to using the Imperial System of measurement instead of the Metric System?",
+        "response": "The imperial system of measurement has advantages over the metric system, such as being more associated with everyday life.[1]It is also easier to use than the metric system.[2]However, the U.S. has not adopted the metric system due to the time and money it would take to change the country's infrastructure.[3]Therefore, most have accepted a joint unit system, teaching children in school both the imperial system and the metric system.[3]",
+        "split": "eli5_live",
+        "system_name": "neeva",
+        "citations": [
+            {
+                "text": "[1]",
+                "start_index": 123,
+                "end_index": 126,
+                "link_target": "https://www.cuemath.com/measurement/imperial-system/#:~:text=The%20advantages%20of%20the%20imperial%20system%20of%20measurement,we%20don%27t%20know%20what%20a%20liter%20looks%20like."
+            },
+            {
+                "text": "[2]",
+                "start_index": 174,
+                "end_index": 177,
+                "link_target": "https://reference.yourdictionary.com/resources/metric-system-vs-imperial-system-differences-and-use.html"
+            },
+            {
+                "text": "[3]",
+                "start_index": 308,
+                "end_index": 311,
+                "link_target": "https://www.britannica.com/story/why-doesnt-the-us-use-the-metric-system"
+            },
+            {
+                "text": "[3]",
+                "start_index": 437,
+                "end_index": 440,
+                "link_target": "https://www.britannica.com/story/why-doesnt-the-us-use-the-metric-system"
+            }
+        ],
+        "statements_to_citation_texts": {
+            "The imperial system of measurement has advantages over the metric system, such as being more associated with everyday life.[1]": [
+                "[1]"
+            ],
+            "It is also easier to use than the metric system.[2]": [
+                "[2]"
+            ],
+            "However, the U.S. has not adopted the metric system due to the time and money it would take to change the country's infrastructure.[3]": [
+                "[3]"
+            ],
+            "Therefore, most have accepted a joint unit system, teaching children in school both the imperial system and the metric system.[3]": [
+                "[3]"
+            ]
+        },
+        "annotation": {
+            "fluency": "Agree",
+            "perceived_utility": "Agree",
+            "statement_to_annotation": {
+                "The imperial system of measurement has advantages over the metric system, such as being more associated with everyday life.[1]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "The imperial system units are more associated with our real lives than the metric system units."
+                        }
+                    ]
+                },
+                "It is also easier to use than the metric system.[2]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        }
+                    ]
+                },
+                "However, the U.S. has not adopted the metric system due to the time and money it would take to change the country's infrastructure.[3]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[3]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "The biggest reasons the U.S. hasn\u2019t adopted the metric system are simply time and money. Whenever the discussion of switching unit systems arose in Congress, the passage of a bill favoring the metric system was thwarted by big businesses and American citizens who didn\u2019t want to go through the time-consuming and expensive hassle of changing the country\u2019s entire infrastructure"
+                        }
+                    ]
+                },
+                "Therefore, most have accepted a joint unit system, teaching children in school both the imperial system and the metric system.[3]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[3]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "In modern times, most have accepted a joint unit system\u2014teaching children in school both the traditionally used IS system and the metric system that most of the rest of the world uses."
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "id": "dedfab72aa02a93bfac8b8fbe448a983fd2628b2642a729a71d53cd8f71e98fd-neeva",
+        "query": "Should the age of retirement be increased?",
+        "response": "Most experts agree that the retirement age should be increased, with the full retirement age gradually raised for people born after 1960 to 68, 69 or 70.[1]This would mean smaller Social Security payments for many retirees, but those who delay claiming Social Security after their full retirement age up until age 70 can increase their monthly Social Security payments.[2]Congress mandated these changes in 1983, citing improvements in the health of older people and increases in life expectancy as reasons for raising the retirement age.[3]Adjustments could be made to prevent those who claim earlier from getting even lower benefits.[4]",
+        "split": "davinci_debate",
+        "system_name": "neeva",
+        "citations": [
+            {
+                "text": "[1]",
+                "start_index": 153,
+                "end_index": 156,
+                "link_target": "https://www.heritage.org/social-security/commentary/pro-con-should-the-retirement-age-go"
+            },
+            {
+                "text": "[2]",
+                "start_index": 369,
+                "end_index": 372,
+                "link_target": "https://money.usnews.com/money/retirement/social-security/articles/the-social-security-retirement-age-increases"
+            },
+            {
+                "text": "[3]",
+                "start_index": 538,
+                "end_index": 541,
+                "link_target": "https://www.aarp.org/retirement/social-security/questions-answers/is-the-full-retirement-age-going-up.html"
+            },
+            {
+                "text": "[4]",
+                "start_index": 635,
+                "end_index": 638,
+                "link_target": "https://www.cnbc.com/2021/01/14/how-raising-the-social-security-retirement-age-could-affect-benefits.html"
+            }
+        ],
+        "statements_to_citation_texts": {
+            "Most experts agree that the retirement age should be increased, with the full retirement age gradually raised for people born after 1960 to 68, 69 or 70.[1]": [
+                "[1]"
+            ],
+            "This would mean smaller Social Security payments for many retirees, but those who delay claiming Social Security after their full retirement age up until age 70 can increase their monthly Social Security payments.[2]": [
+                "[2]"
+            ],
+            "Congress mandated these changes in 1983, citing improvements in the health of older people and increases in life expectancy as reasons for raising the retirement age.[3]": [
+                "[3]"
+            ],
+            "Adjustments could be made to prevent those who claim earlier from getting even lower benefits.[4]": [
+                "[4]"
+            ]
+        },
+        "annotation": {
+            "fluency": "Agree",
+            "perceived_utility": "Strongly Agree",
+            "statement_to_annotation": {
+                "Most experts agree that the retirement age should be increased, with the full retirement age gradually raised for people born after 1960 to 68, 69 or 70.[1]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        }
+                    ]
+                },
+                "This would mean smaller Social Security payments for many retirees, but those who delay claiming Social Security after their full retirement age up until age 70 can increase their monthly Social Security payments.[2]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "Relative to an earlier full retirement age, a later full retirement age means that the person gets less money per month regardless of when they file,\""
+                        }
+                    ]
+                },
+                "Congress mandated these changes in 1983, citing improvements in the health of older people and increases in life expectancy as reasons for raising the retirement age.[3]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[3]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "These changes were mandated by Congress in 1983 as part of a law that strengthened Social Security's finances. Congress cited improvements in the health of older people and increases in life expectancy as reasons for raising the retirement age."
+                        }
+                    ]
+                },
+                "Adjustments could be made to prevent those who claim earlier from getting even lower benefits.[4]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[4]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "If the full retirement age was pushed higher, there could be adjustments to prevent those who claim earlier from getting even lower benefits."
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "id": "106920e4ed6defda325ea353e4ac8ad741c50339e88b575e552ee0a986b48215-perplexity",
+        "query": "where did the name salt water taffy come from",
+        "response": "Salt water taffy is said to have received its name after a boardwalk candy shop flooded with water from the Atlantic Ocean in 1883, soaking all the taffy in salty seawater. Reportedly, the shop owner joked with a customer that all he had was salt water taffy, and the name stuck.[1] However, some people think Salt Water Taffy is really made from a process using sea water, hence the name \u201cSalt Water Taffy\u201d.[2] Most food historians believe salt water taffy was invented in the early 1880s by John Ross Edmiston.[3][4][5]",
+        "split": "nq_paragraph_without_short_answer",
+        "system_name": "perplexity",
+        "citations": [
+            {
+                "text": "[1]",
+                "start_index": 279,
+                "end_index": 282,
+                "link_target": "https://www.britannica.com/topic/salt-water-taffy"
+            },
+            {
+                "text": "[2]",
+                "start_index": 408,
+                "end_index": 411,
+                "link_target": "https://carouselhotel.com/how-did-salt-water-taffy-gets-its-name/"
+            },
+            {
+                "text": "[3]",
+                "start_index": 512,
+                "end_index": 515,
+                "link_target": "https://www.taffytown.com/blogs/our-taffy-blog/the-history-of-salt-water-taffy"
+            },
+            {
+                "text": "[4]",
+                "start_index": 515,
+                "end_index": 518,
+                "link_target": "https://bulkcandystore.com/blog/the-history-of-salt-water-taffy/"
+            },
+            {
+                "text": "[5]",
+                "start_index": 518,
+                "end_index": 521,
+                "link_target": "https://en.wikipedia.org/wiki/Taffy_(candy)"
+            }
+        ],
+        "statements_to_citation_texts": {
+            "Salt water taffy is said to have received its name after a boardwalk candy shop flooded with water from the Atlantic Ocean in 1883, soaking all the taffy in salty seawater.": [],
+            "Reportedly, the shop owner joked with a customer that all he had was salt water taffy, and the name stuck.[1]": [
+                "[1]"
+            ],
+            "However, some people think Salt Water Taffy is really made from a process using sea water, hence the name \u201cSalt Water Taffy\u201d.[2]": [
+                "[2]"
+            ],
+            "Most food historians believe salt water taffy was invented in the early 1880s by John Ross Edmiston.[3][4][5]": [
+                "[3]",
+                "[4]",
+                "[5]"
+            ]
+        },
+        "annotation": {
+            "fluency": "Agree",
+            "perceived_utility": "Agree",
+            "statement_to_annotation": {
+                "Salt water taffy is said to have received its name after a boardwalk candy shop flooded with water from the Atlantic Ocean in 1883, soaking all the taffy in salty seawater.": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": null,
+                    "citation_annotations": null
+                },
+                "Reportedly, the shop owner joked with a customer that all he had was salt water taffy, and the name stuck.[1]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "The sweet is said to have received its name after a boardwalk candy shop flooded with water from the Atlantic Ocean in 1883, soaking all the taffy in salty seawater. Reportedly, the shop owner joked with a customer that all he had was salt water taffy, and the name stuck."
+                        }
+                    ]
+                },
+                "However, some people think Salt Water Taffy is really made from a process using sea water, hence the name \u201cSalt Water Taffy\u201d.[2]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "some people think Salt Water Taffy is really made from a process using sea water, hence the name \u201cSalt Water Taffy\u201d"
+                        }
+                    ]
+                },
+                "Most food historians believe salt water taffy was invented in the early 1880s by John Ross Edmiston.[3][4][5]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[3]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        },
+                        {
+                            "citation_text": "[4]",
+                            "citation_supports": "Citation Provides No Support for Statement",
+                            "evidence": null
+                        },
+                        {
+                            "citation_text": "[5]",
+                            "citation_supports": "Citation Partially Supports Statement",
+                            "evidence": "Salt water taffy is a variety of soft taffy originally produced and marketed in the Atlantic City, New Jersey area of the Jersey Shore starting in the 1880s.["
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "id": "72da6ee48ac016f0552cf2bd0e9d263e6cfce1c98b4abf51da6dd8dff98b6ea2-bing_chat",
+        "query": "Are there topics one should not joke about?",
+        "response": "There is no definitive answer to this question as opinions vary. Some people believe that it's acceptable to joke about anything as long as there is no real malice and it is not comedy of hate[1]. Others believe that some topics should be off-limits to comedy because they can hurt people's feelings[2].\n\nIs there a specific topic you have in mind?",
+        "split": "allsouls",
+        "system_name": "bing_chat",
+        "citations": [
+            {
+                "text": "[1]",
+                "start_index": 192,
+                "end_index": 195,
+                "link_target": "https://www.theguardian.com/notesandqueries/query/0,5753,-23095,00.html"
+            },
+            {
+                "text": "[2]",
+                "start_index": 299,
+                "end_index": 302,
+                "link_target": "https://archive.nytimes.com/learning.blogs.nytimes.com/2015/04/15/should-any-topics-be-off-limits-to-comedy/"
+            }
+        ],
+        "statements_to_citation_texts": {
+            "There is no definitive answer to this question as opinions vary.": [],
+            "Some people believe that it's acceptable to joke about anything as long as there is no real malice and it is not comedy of hate[1].": [
+                "[1]"
+            ],
+            "Others believe that some topics should be off-limits to comedy because they can hurt people's feelings[2].": [
+                "[2]"
+            ],
+            "Is there a specific topic you have in mind?": []
+        },
+        "annotation": {
+            "fluency": "Strongly Agree",
+            "perceived_utility": "Strongly Agree",
+            "statement_to_annotation": {
+                "There is no definitive answer to this question as opinions vary.": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": null,
+                    "citation_annotations": null
+                },
+                "Some people believe that it's acceptable to joke about anything as long as there is no real malice and it is not comedy of hate[1].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        }
+                    ]
+                },
+                "Others believe that some topics should be off-limits to comedy because they can hurt people's feelings[2].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Citation Provides No Support for Statement",
+                            "evidence": null
+                        }
+                    ]
+                },
+                "Is there a specific topic you have in mind?": {
+                    "statement_is_verification_worthy": false,
+                    "statement_supported": null,
+                    "citation_annotations": null
+                }
+            }
+        }
+    },
+    {
+        "id": "1c439f45e1e9b61acce894efaa7116119a24f88e7c62d5d659e595c192f0ad0e-you",
+        "query": "who's opening for the weekend in vancouver",
+        "response": "For the The Weeknd's After Hours Till Dawn tour in Vancouver [1][2], British Columbia, the opening acts are Swedish R&B artist Snoh Aalegra, British singer-songwriter RAYE and South African singer-songwriter and record producer BELLY. Tickets for the show on August 23, 2023 are on sale now.",
+        "split": "nq_table_with_short_answer",
+        "system_name": "you",
+        "citations": [
+            {
+                "text": "[1]",
+                "start_index": 61,
+                "end_index": 64,
+                "link_target": "https://www.billboard.com/music/music-news/the-weeknd-tour-opening-acts-announcement-1235109249/"
+            },
+            {
+                "text": "[2]",
+                "start_index": 64,
+                "end_index": 67,
+                "link_target": "https://www.vancouverisawesome.com/events-and-entertainment/the-weeknd-and-doja-cat-are-coming-to-vancouver-5123033"
+            }
+        ],
+        "statements_to_citation_texts": {
+            "For the The Weeknd's After Hours Till Dawn tour in Vancouver [1][2], British Columbia, the opening acts are Swedish R&B artist Snoh Aalegra, British singer-songwriter RAYE and South African singer-songwriter and record producer BELLY.": [
+                "[1]",
+                "[2]"
+            ],
+            "Tickets for the show on August 23, 2023 are on sale now.": []
+        },
+        "annotation": {
+            "fluency": "Strongly Agree",
+            "perceived_utility": "Strongly Agree",
+            "statement_to_annotation": {
+                "For the The Weeknd's After Hours Till Dawn tour in Vancouver [1][2], British Columbia, the opening acts are Swedish R&B artist Snoh Aalegra, British singer-songwriter RAYE and South African singer-songwriter and record producer BELLY.": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        },
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Citation Provides No Support for Statement",
+                            "evidence": null
+                        }
+                    ]
+                },
+                "Tickets for the show on August 23, 2023 are on sale now.": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": null,
+                    "citation_annotations": null
+                }
+            }
+        }
+    },
+    {
+        "id": "f54b5e5941292efc5c40eeff153912bd53dcdecc06b76c3348b3ce8193c0cddb-perplexity",
+        "query": "who has the most super bowl rings in nfl history",
+        "response": "Tom Brady has the most Super Bowl rings in NFL history with six[1][2][3]. The New England Patriots and Pittsburgh Steelers are tied for the most Super Bowl wins by a team with six[4].",
+        "split": "nq_list_with_short_answer",
+        "system_name": "perplexity",
+        "citations": [
+            {
+                "text": "[1]",
+                "start_index": 63,
+                "end_index": 66,
+                "link_target": "https://www.usatoday.com/story/sports/nfl/2022/08/03/most-super-bowl-rings-nfl-player-coach-team/10203008002/"
+            },
+            {
+                "text": "[2]",
+                "start_index": 66,
+                "end_index": 69,
+                "link_target": "https://www.menshealth.com/entertainment/a30347239/most-super-bowl-rings-wins/"
+            },
+            {
+                "text": "[3]",
+                "start_index": 69,
+                "end_index": 72,
+                "link_target": "https://en.as.com/nfl/what-players-have-won-the-most-super-bowl-championships-full-list-n/"
+            },
+            {
+                "text": "[4]",
+                "start_index": 179,
+                "end_index": 182,
+                "link_target": "https://www.statista.com/statistics/266516/number-of-super-bowl-wins-by-nfl-team/"
+            }
+        ],
+        "statements_to_citation_texts": {
+            "Tom Brady has the most Super Bowl rings in NFL history with six[1][2][3].": [
+                "[1]",
+                "[2]",
+                "[3]"
+            ],
+            "The New England Patriots and Pittsburgh Steelers are tied for the most Super Bowl wins by a team with six[4].": [
+                "[4]"
+            ]
+        },
+        "annotation": {
+            "fluency": "Agree",
+            "perceived_utility": "Agree",
+            "statement_to_annotation": {
+                "Tom Brady has the most Super Bowl rings in NFL history with six[1][2][3].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Citations Contradict Each Other",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        },
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "6 rings: Tom Brady"
+                        },
+                        {
+                            "citation_text": "[3]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "Tom Brady is the all-time leader with six Super Bowl victories, followed by retired defensive end Charles Hayley with five."
+                        }
+                    ]
+                },
+                "The New England Patriots and Pittsburgh Steelers are tied for the most Super Bowl wins by a team with six[4].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[4]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "The New England Patriots have won the Super Bowl a record six times, most recently Super Bowl LIII in February 2019. Joining them at the top of this list is the Pittsburgh Steelers, whose most recent of their six titles came in 2009."
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "id": "14cbaf6696e60c69021b3049807ce18785213733f6b07ebf414e9fdb4b8f8f3d-you",
+        "query": "why do we know so little about the ocean, but know so much about the moon?",
+        "response": "The reason we know so little about the ocean compared to the moon is largely technological. While we have been able to explore the moon in detail using robotic spacecraft and human missions, exploring the deep ocean poses many technical challenges. The extreme pressure, darkness, and vastness of the ocean floor make it difficult to explore and study. In addition, the ocean covers over 70 percent of the Earth's surface, and much of it is remote and difficult to access. This has made it difficult and expensive to conduct deep sea research and exploration. While the entire ocean floor has been mapped [1], only a small percentage has been explored in detail, and much of what lies beneath the ocean's surface remains a mystery.",
+        "split": "eli5_kilt",
+        "system_name": "you",
+        "citations": [
+            {
+                "text": "[1]",
+                "start_index": 605,
+                "end_index": 608,
+                "link_target": "https://science.howstuffworks.com/environmental/earth/oceanography/deep-ocean-exploration.htm"
+            }
+        ],
+        "statements_to_citation_texts": {
+            "The reason we know so little about the ocean compared to the moon is largely technological.": [],
+            "While we have been able to explore the moon in detail using robotic spacecraft and human missions, exploring the deep ocean poses many technical challenges.": [],
+            "The extreme pressure, darkness, and vastness of the ocean floor make it difficult to explore and study.": [],
+            "In addition, the ocean covers over 70 percent of the Earth's surface, and much of it is remote and difficult to access.": [],
+            "This has made it difficult and expensive to conduct deep sea research and exploration.": [],
+            "While the entire ocean floor has been mapped [1], only a small percentage has been explored in detail, and much of what lies beneath the ocean's surface remains a mystery.": [
+                "[1]"
+            ]
+        },
+        "annotation": {
+            "fluency": "Strongly Agree",
+            "perceived_utility": "Strongly Agree",
+            "statement_to_annotation": {
+                "The reason we know so little about the ocean compared to the moon is largely technological.": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": null,
+                    "citation_annotations": null
+                },
+                "While we have been able to explore the moon in detail using robotic spacecraft and human missions, exploring the deep ocean poses many technical challenges.": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": null,
+                    "citation_annotations": null
+                },
+                "The extreme pressure, darkness, and vastness of the ocean floor make it difficult to explore and study.": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": null,
+                    "citation_annotations": null
+                },
+                "In addition, the ocean covers over 70 percent of the Earth's surface, and much of it is remote and difficult to access.": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": null,
+                    "citation_annotations": null
+                },
+                "This has made it difficult and expensive to conduct deep sea research and exploration.": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": null,
+                    "citation_annotations": null
+                },
+                "While the entire ocean floor has been mapped [1], only a small percentage has been explored in detail, and much of what lies beneath the ocean's surface remains a mystery.": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "id": "cfb4e58e561765ff7ed498416b329ad968201227cad2c2e55238397d220e7ebf-neeva",
+        "query": "when was the last time minimum wage increased in ontario",
+        "response": "The last time the minimum wage increased in Ontario was on October 1, 2020, when it went up from $14 to $14.25.[1]Before that, the minimum wage had not increased since January 2018, when it went up from $11.60 to $14.[1]After that, the Ford government implemented a wage freeze.[1]",
+        "split": "nq_table_with_short_answer",
+        "system_name": "neeva",
+        "citations": [
+            {
+                "text": "[1]",
+                "start_index": 111,
+                "end_index": 114,
+                "link_target": "https://toronto.ctvnews.ca/minimum-wage-in-ontario-has-officially-gone-up-and-here-s-what-you-need-to-know-1.5585259"
+            },
+            {
+                "text": "[1]",
+                "start_index": 217,
+                "end_index": 220,
+                "link_target": "https://toronto.ctvnews.ca/minimum-wage-in-ontario-has-officially-gone-up-and-here-s-what-you-need-to-know-1.5585259"
+            },
+            {
+                "text": "[1]",
+                "start_index": 278,
+                "end_index": 281,
+                "link_target": "https://toronto.ctvnews.ca/minimum-wage-in-ontario-has-officially-gone-up-and-here-s-what-you-need-to-know-1.5585259"
+            }
+        ],
+        "statements_to_citation_texts": {
+            "The last time the minimum wage increased in Ontario was on October 1, 2020, when it went up from $14 to $14.25.[1]": [
+                "[1]"
+            ],
+            "Before that, the minimum wage had not increased since January 2018, when it went up from $11.60 to $14.[1]": [
+                "[1]"
+            ],
+            "After that, the Ford government implemented a wage freeze.[1]": [
+                "[1]"
+            ]
+        },
+        "annotation": {
+            "fluency": "Agree",
+            "perceived_utility": "Agree",
+            "statement_to_annotation": {
+                "The last time the minimum wage increased in Ontario was on October 1, 2020, when it went up from $14 to $14.25.[1]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        }
+                    ]
+                },
+                "Before that, the minimum wage had not increased since January 2018, when it went up from $11.60 to $14.[1]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "Before that, the minimum wage had not increased since January 2018, when it went up from $11.60 to $14, after which the Ford government implemented a wage freeze."
+                        }
+                    ]
+                },
+                "After that, the Ford government implemented a wage freeze.[1]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "Before that, the minimum wage had not increased since January 2018, when it went up from $11.60 to $14, after which the Ford government implemented a wage freeze."
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "id": "b920200813483a58babc8edf88e7b0bced435a8f1fbb30f95716d6330f7ba42d-you",
+        "query": "guest stars on sons of anarchy season 5",
+        "response": "Some of the guest stars on season 5 of Sons of Anarchy included Jimmy Smits as Nero Padilla [1], Rockmond Dunbar as Lieutenant Eli Roosevelt [1], Harold Perrineau as Damon Pope [1], Benito Martinez as Luis Torres [1], David Labrava as Happy Lowman [2], Christopher Douglas Reed as Philip 'Filthy Phil' Russell [2], Dave Navarro as El Padrino, and Danny Trejo as Romeo Parada.",
+        "split": "nq_list_with_short_answer",
+        "system_name": "you",
+        "citations": [
+            {
+                "text": "[1]",
+                "start_index": 92,
+                "end_index": 95,
+                "link_target": "https://en.wikipedia.org/wiki/Sons_of_Anarchy_(season_5)"
+            },
+            {
+                "text": "[1]",
+                "start_index": 141,
+                "end_index": 144,
+                "link_target": "https://en.wikipedia.org/wiki/Sons_of_Anarchy_(season_5)"
+            },
+            {
+                "text": "[1]",
+                "start_index": 177,
+                "end_index": 180,
+                "link_target": "https://en.wikipedia.org/wiki/Sons_of_Anarchy_(season_5)"
+            },
+            {
+                "text": "[1]",
+                "start_index": 213,
+                "end_index": 216,
+                "link_target": "https://en.wikipedia.org/wiki/Sons_of_Anarchy_(season_5)"
+            },
+            {
+                "text": "[2]",
+                "start_index": 248,
+                "end_index": 251,
+                "link_target": "https://sonsofanarchy.fandom.com/wiki/Season_5"
+            },
+            {
+                "text": "[2]",
+                "start_index": 310,
+                "end_index": 313,
+                "link_target": "https://sonsofanarchy.fandom.com/wiki/Season_5"
+            }
+        ],
+        "statements_to_citation_texts": {
+            "Some of the guest stars on season 5 of Sons of Anarchy included Jimmy Smits as Nero Padilla [1], Rockmond Dunbar as Lieutenant Eli Roosevelt [1], Harold Perrineau as Damon Pope [1], Benito Martinez as Luis Torres [1], David Labrava as Happy Lowman [2], Christopher Douglas Reed as Philip 'Filthy Phil' Russell [2], Dave Navarro as El Padrino, and Danny Trejo as Romeo Parada.": [
+                "[1]",
+                "[2]"
+            ]
+        },
+        "annotation": {
+            "fluency": "Strongly Agree",
+            "perceived_utility": "Strongly Agree",
+            "statement_to_annotation": {
+                "Some of the guest stars on season 5 of Sons of Anarchy included Jimmy Smits as Nero Padilla [1], Rockmond Dunbar as Lieutenant Eli Roosevelt [1], Harold Perrineau as Damon Pope [1], Benito Martinez as Luis Torres [1], David Labrava as Happy Lowman [2], Christopher Douglas Reed as Philip 'Filthy Phil' Russell [2], Dave Navarro as El Padrino, and Danny Trejo as Romeo Parada.": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        },
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "id": "091e2bf6754278dad92dbd333f5ead76369074d6e22010487fbbbfcbebd78cac-perplexity",
+        "query": "Is eugenics ever a good thing?",
+        "response": "Eugenics is a scientifically erroneous and immoral theory of \"racial improvement\" and \"planned breeding\"[1]. Negative eugenic measures have included immigration restrictions based on undesirable traits such as race, nationality, and ethnicity[2]. It is generally considered immoral[3] and any effort to slow population growth should center on reproductive justice[4].",
+        "split": "allsouls",
+        "system_name": "perplexity",
+        "citations": [
+            {
+                "text": "[1]",
+                "start_index": 104,
+                "end_index": 107,
+                "link_target": "https://www.genome.gov/about-genomics/fact-sheets/Eugenics-and-Scientific-Racism"
+            },
+            {
+                "text": "[2]",
+                "start_index": 242,
+                "end_index": 245,
+                "link_target": "https://eugenicsarchive.ca/discover/tree/5233c3ac5c2ec50000000086"
+            },
+            {
+                "text": "[3]",
+                "start_index": 281,
+                "end_index": 284,
+                "link_target": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1129063/"
+            },
+            {
+                "text": "[4]",
+                "start_index": 363,
+                "end_index": 366,
+                "link_target": "https://www.washingtonpost.com/outlook/2020/02/17/eugenics-is-trending-thats-problem/"
+            }
+        ],
+        "statements_to_citation_texts": {
+            "Eugenics is a scientifically erroneous and immoral theory of \"racial improvement\" and \"planned breeding\"[1].": [
+                "[1]"
+            ],
+            "Negative eugenic measures have included immigration restrictions based on undesirable traits such as race, nationality, and ethnicity[2].": [
+                "[2]"
+            ],
+            "It is generally considered immoral[3] and any effort to slow population growth should center on reproductive justice[4].": [
+                "[3]",
+                "[4]"
+            ]
+        },
+        "annotation": {
+            "fluency": "Strongly Agree",
+            "perceived_utility": "Strongly Agree",
+            "statement_to_annotation": {
+                "Eugenics is a scientifically erroneous and immoral theory of \"racial improvement\" and \"planned breeding\"[1].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "Eugenics is the scientifically erroneous and immoral theory of \u201cracial improvement\u201d and \u201cplanned breeding,\u201d which gained popularity during the early 20th century."
+                        }
+                    ]
+                },
+                "Negative eugenic measures have included immigration restrictions based on undesirable traits such as race, nationality, and ethnicity[2].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "Negative eugenic measures have included immigration restriction based on putatively eugenically undesirable traits, including race, nationality, and ethnicity;"
+                        }
+                    ]
+                },
+                "It is generally considered immoral[3] and any effort to slow population growth should center on reproductive justice[4].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[3]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        },
+                        {
+                            "citation_text": "[4]",
+                            "citation_supports": "Citation Inaccessible",
+                            "evidence": null
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "id": "f3a5a219886952f65430dbca1c594ea3fe8f12ea054a6852025fbfc8a7201c21-bing_chat",
+        "query": "how far is statesville nc from charlotte nc",
+        "response": "The driving distance between Statesville, NC and Charlotte, NC is **42 miles** or **68 kilometers**[1] [2]. The fastest route is via **I-77 S**[1] [3]. It would take approximately **43 minutes** to drive non-stop[1] [3].\n\nIs there anything else you would like to know?",
+        "split": "nq_table_without_short_answer",
+        "system_name": "bing_chat",
+        "citations": [
+            {
+                "text": "[1]",
+                "start_index": 99,
+                "end_index": 102,
+                "link_target": "https://bing.com/search?q=distance+between+statesville+nc+and+charlotte+nc"
+            },
+            {
+                "text": "[2]",
+                "start_index": 103,
+                "end_index": 106,
+                "link_target": "https://www.travelmath.com/distance/from/Statesville,+NC/to/Charlotte,+NC"
+            },
+            {
+                "text": "[1]",
+                "start_index": 143,
+                "end_index": 146,
+                "link_target": "https://bing.com/search?q=distance+between+statesville+nc+and+charlotte+nc"
+            },
+            {
+                "text": "[3]",
+                "start_index": 147,
+                "end_index": 150,
+                "link_target": "https://www.distance-cities.com/distance-statesville-nc-to-charlotte-nc"
+            },
+            {
+                "text": "[1]",
+                "start_index": 212,
+                "end_index": 215,
+                "link_target": "https://bing.com/search?q=distance+between+statesville+nc+and+charlotte+nc"
+            },
+            {
+                "text": "[3]",
+                "start_index": 216,
+                "end_index": 219,
+                "link_target": "https://www.distance-cities.com/distance-statesville-nc-to-charlotte-nc"
+            }
+        ],
+        "statements_to_citation_texts": {
+            "The driving distance between Statesville, NC and Charlotte, NC is **42 miles** or **68 kilometers**[1] [2].": [
+                "[1]",
+                "[2]"
+            ],
+            "The fastest route is via **I-77 S**[1] [3].": [
+                "[1]",
+                "[3]"
+            ],
+            "It would take approximately **43 minutes** to drive non-stop[1] [3].": [
+                "[1]",
+                "[3]"
+            ],
+            "Is there anything else you would like to know?": []
+        },
+        "annotation": {
+            "fluency": "Agree",
+            "perceived_utility": "Agree",
+            "statement_to_annotation": {
+                "The driving distance between Statesville, NC and Charlotte, NC is **42 miles** or **68 kilometers**[1] [2].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "42.5 miles"
+                        },
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "42 miles"
+                        }
+                    ]
+                },
+                "The fastest route is via **I-77 S**[1] [3].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "Via I-77 S"
+                        },
+                        {
+                            "citation_text": "[3]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "following the I-77 S route."
+                        }
+                    ]
+                },
+                "It would take approximately **43 minutes** to drive non-stop[1] [3].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Citations Contradict Each Other",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        },
+                        {
+                            "citation_text": "[3]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        }
+                    ]
+                },
+                "Is there anything else you would like to know?": {
+                    "statement_is_verification_worthy": false,
+                    "statement_supported": null,
+                    "citation_annotations": null
+                }
+            }
+        }
+    },
+    {
+        "id": "b0acd76f7e33d9e32c2226d4903c8aacffba26a319b119323785a59e6317c658-neeva",
+        "query": "how many times has the miami dolphins won the super bowl",
+        "response": "The Miami Dolphins have won the Super Bowl a total of 2 times in their 5 appearances, as stated in.[1]The team's logo and uniforms have remained fairly consistent since their founding, with the colors being originally aqua and coral, as mentioned in.[2]The team also opened a new, 135 million training facility, dubbed the Baptist Health Training Complex, in 2021.[2]",
+        "split": "nq_paragraph_without_short_answer",
+        "system_name": "neeva",
+        "citations": [
+            {
+                "text": "[1]",
+                "start_index": 99,
+                "end_index": 102,
+                "link_target": "https://sports.nbcsports.com/2023/01/11/dolphins-super-bowl-history-when-is-the-last-time-miami-made-it-to-won-the-super-bowl/"
+            },
+            {
+                "text": "[2]",
+                "start_index": 250,
+                "end_index": 253,
+                "link_target": "https://en.wikipedia.org/wiki/Miami_Dolphins"
+            },
+            {
+                "text": "[2]",
+                "start_index": 364,
+                "end_index": 367,
+                "link_target": "https://en.wikipedia.org/wiki/Miami_Dolphins"
+            }
+        ],
+        "statements_to_citation_texts": {
+            "The Miami Dolphins have won the Super Bowl a total of 2 times in their 5 appearances, as stated in.[1]": [
+                "[1]"
+            ],
+            "The team's logo and uniforms have remained fairly consistent since their founding, with the colors being originally aqua and coral, as mentioned in.[2]": [
+                "[2]"
+            ],
+            "The team also opened a new, 135 million training facility, dubbed the Baptist Health Training Complex, in 2021.[2]": [
+                "[2]"
+            ]
+        },
+        "annotation": {
+            "fluency": "Disagree",
+            "perceived_utility": "Agree",
+            "statement_to_annotation": {
+                "The Miami Dolphins have won the Super Bowl a total of 2 times in their 5 appearances, as stated in.[1]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "The Miami Dolphins have won the Super Bowl a total of 2 times in their 5 appearances"
+                        }
+                    ]
+                },
+                "The team's logo and uniforms have remained fairly consistent since their founding, with the colors being originally aqua and coral, as mentioned in.[2]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        }
+                    ]
+                },
+                "The team also opened a new, 135 million training facility, dubbed the Baptist Health Training Complex, in 2021.[2]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "In 2021, the Dolphins opened a new, 135 million training facility, dubbed the Baptist Health Training Complex, the Dolphins will practice in."
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "id": "a3178a42d280172008cb5375c28c6a1aca2895bc9490d44f8e76cdb1d0a99dc0-perplexity",
+        "query": "how many missions to the moon failed before luna 2 succeeded",
+        "response": "Luna 2 was the first spacecraft to impact the Moon's surface successfully[1]. There were several failed missions to the Moon before Luna 2, including a launch failure that occurred with one mission separated Luna 1 and Luna 2[2]. However, it is unclear how many missions failed before Luna 2 succeeded. [2][3][4][1][5]",
+        "split": "nq_table_without_short_answer",
+        "system_name": "perplexity",
+        "citations": [
+            {
+                "text": "[1]",
+                "start_index": 73,
+                "end_index": 76,
+                "link_target": "https://moon.nasa.gov/exploration/moon-missions"
+            },
+            {
+                "text": "[2]",
+                "start_index": 225,
+                "end_index": 228,
+                "link_target": "https://en.wikipedia.org/wiki/List_of_missions_to_the_Moon"
+            },
+            {
+                "text": "[2]",
+                "start_index": 303,
+                "end_index": 306,
+                "link_target": "https://en.wikipedia.org/wiki/List_of_missions_to_the_Moon"
+            },
+            {
+                "text": "[3]",
+                "start_index": 306,
+                "end_index": 309,
+                "link_target": "https://gizmodo.com/failed-missions-to-the-moon-nasa-soviet-union-1849094164"
+            },
+            {
+                "text": "[4]",
+                "start_index": 309,
+                "end_index": 312,
+                "link_target": "https://www.planetary.org/space-missions/every-moon-mission"
+            },
+            {
+                "text": "[1]",
+                "start_index": 312,
+                "end_index": 315,
+                "link_target": "https://moon.nasa.gov/exploration/moon-missions"
+            },
+            {
+                "text": "[5]",
+                "start_index": 315,
+                "end_index": 318,
+                "link_target": "https://airandspace.si.edu/stories/editorial/revisiting-soviet-lunar-sample-return-missions"
+            }
+        ],
+        "statements_to_citation_texts": {
+            "Luna 2 was the first spacecraft to impact the Moon's surface successfully[1].": [
+                "[1]"
+            ],
+            "There were several failed missions to the Moon before Luna 2, including a launch failure that occurred with one mission separated Luna 1 and Luna 2[2].": [
+                "[2]"
+            ],
+            "However, it is unclear how many missions failed before Luna 2 succeeded. [2][3][4][1][5]": [
+                "[2]",
+                "[3]",
+                "[4]",
+                "[1]",
+                "[5]"
+            ]
+        },
+        "annotation": {
+            "fluency": "Strongly Agree",
+            "perceived_utility": "Strongly Agree",
+            "statement_to_annotation": {
+                "Luna 2 was the first spacecraft to impact the Moon's surface successfully[1].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": null
+                        }
+                    ]
+                },
+                "There were several failed missions to the Moon before Luna 2, including a launch failure that occurred with one mission separated Luna 1 and Luna 2[2].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Statement is Unclear, Can't Make Judgment",
+                            "evidence": null
+                        }
+                    ]
+                },
+                "However, it is unclear how many missions failed before Luna 2 succeeded. [2][3][4][1][5]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        },
+                        {
+                            "citation_text": "[3]",
+                            "citation_supports": "Citation Provides No Support for Statement",
+                            "evidence": null
+                        },
+                        {
+                            "citation_text": "[4]",
+                            "citation_supports": "Citation Provides No Support for Statement",
+                            "evidence": null
+                        },
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Provides No Support for Statement",
+                            "evidence": null
+                        },
+                        {
+                            "citation_text": "[5]",
+                            "citation_supports": "Citation Provides No Support for Statement",
+                            "evidence": null
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "id": "883ffa3e90ad5c168c8d63c41fba3405e3dc44dab903cac5c17af91b3797f9a6-perplexity",
+        "query": "Can conservatism be a force for good in an academic institution?",
+        "response": "Conservatism can be a force for good in an academic institution. Some conservatives argue that conservatism is a force for good because it promotes traditional values and principles[1]. Others argue that equity, which has been embraced by some conservatives, can also be a conservative force for good in education[2]. However, research suggests that conservative students and faculty may face challenges in higher education[3]. Despite this, conservatives are well-positioned to lead on education issues[4].",
+        "split": "allsouls",
+        "system_name": "perplexity",
+        "citations": [
+            {
+                "text": "[1]",
+                "start_index": 181,
+                "end_index": 184,
+                "link_target": "https://www.phc.edu/learnphc/student-voices-conservatism"
+            },
+            {
+                "text": "[2]",
+                "start_index": 313,
+                "end_index": 316,
+                "link_target": "https://www.edweek.org/leadership/opinion-why-equity-has-been-a-conservative-force-in-american-education-and-how-that-could-change/2019/02"
+            },
+            {
+                "text": "[3]",
+                "start_index": 423,
+                "end_index": 426,
+                "link_target": "https://www.aaup.org/article/rethinking-plight-conservatives-higher-education"
+            },
+            {
+                "text": "[4]",
+                "start_index": 503,
+                "end_index": 506,
+                "link_target": "https://www.nationalaffairs.com/publications/detail/the-next-conservative-education-agenda"
+            }
+        ],
+        "statements_to_citation_texts": {
+            "Conservatism can be a force for good in an academic institution.": [],
+            "Some conservatives argue that conservatism is a force for good because it promotes traditional values and principles[1].": [
+                "[1]"
+            ],
+            "Others argue that equity, which has been embraced by some conservatives, can also be a conservative force for good in education[2].": [
+                "[2]"
+            ],
+            "However, research suggests that conservative students and faculty may face challenges in higher education[3].": [
+                "[3]"
+            ],
+            "Despite this, conservatives are well-positioned to lead on education issues[4].": [
+                "[4]"
+            ]
+        },
+        "annotation": {
+            "fluency": "Neutral",
+            "perceived_utility": "Neutral",
+            "statement_to_annotation": {
+                "Conservatism can be a force for good in an academic institution.": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": null,
+                    "citation_annotations": null
+                },
+                "Some conservatives argue that conservatism is a force for good because it promotes traditional values and principles[1].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "They each had different insights and varying reasons, but they identified conservatism as a force for good in a world that is quick to forget the past and often makes decisions out of fear or anger. Layna Caldwell, a sophomore studying political theory, pointed towards conservatism as an application of timeless values and principles to bring around human flourishing."
+                        }
+                    ]
+                },
+                "Others argue that equity, which has been embraced by some conservatives, can also be a conservative force for good in education[2].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        }
+                    ]
+                },
+                "However, research suggests that conservative students and faculty may face challenges in higher education[3].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[3]",
+                            "citation_supports": "Citation Partially Supports Statement",
+                            "evidence": "Although the Right faces special challenges in higher education, our research offers little evidence that conservative students or faculty are the victims of widespread ideological persecution."
+                        }
+                    ]
+                },
+                "Despite this, conservatives are well-positioned to lead on education issues[4].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[4]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "The odd thing is that conservatives are positioned to lead much more effectively on education than they do."
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "id": "416873ae90141a81f3acced74456f7b8b8f85779fe57ea0c44d82591c503b405-neeva",
+        "query": "the two most basic types of light in a scene are the key and the rim",
+        "response": "Three-point lighting is a standard method used in visual media such as theatre, video, film, still photography, computer-generated imagery, and 3D computer graphics. It involves three separate positions of light, one key light shining directly upon the subject, one fill light shining from a side angle relative to the key, and one backlight shining on the subject from behind.[1][2]The key light to fill light ratio is usually 2:1, and the relationship of intensity and placement can change depending on the goals.[1]Therefore, the two most basic types of light in a scene are the key and the rim.",
+        "split": "nq_no_long_answer",
+        "system_name": "neeva",
+        "citations": [
+            {
+                "text": "[1]",
+                "start_index": 377,
+                "end_index": 380,
+                "link_target": "https://www.studiobinder.com/blog/three-point-lighting-setup/"
+            },
+            {
+                "text": "[2]",
+                "start_index": 380,
+                "end_index": 383,
+                "link_target": "https://en.wikipedia.org/wiki/Three-point_lighting"
+            },
+            {
+                "text": "[1]",
+                "start_index": 515,
+                "end_index": 518,
+                "link_target": "https://www.studiobinder.com/blog/three-point-lighting-setup/"
+            }
+        ],
+        "statements_to_citation_texts": {
+            "Three-point lighting is a standard method used in visual media such as theatre, video, film, still photography, computer-generated imagery, and 3D computer graphics.": [],
+            "It involves three separate positions of light, one key light shining directly upon the subject, one fill light shining from a side angle relative to the key, and one backlight shining on the subject from behind.[1][2]": [
+                "[1]",
+                "[2]"
+            ],
+            "The key light to fill light ratio is usually 2:1, and the relationship of intensity and placement can change depending on the goals.[1]": [
+                "[1]"
+            ],
+            "Therefore, the two most basic types of light in a scene are the key and the rim.": []
+        },
+        "annotation": {
+            "fluency": "Neutral",
+            "perceived_utility": "Neutral",
+            "statement_to_annotation": {
+                "Three-point lighting is a standard method used in visual media such as theatre, video, film, still photography, computer-generated imagery, and 3D computer graphics.": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": null,
+                    "citation_annotations": null
+                },
+                "It involves three separate positions of light, one key light shining directly upon the subject, one fill light shining from a side angle relative to the key, and one backlight shining on the subject from behind.[1][2]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        },
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "The key light, as the name suggests, shines directly upon the subject and serves as its principal illuminator The fill light also shines on the subject, but from a side angle relative to the key and is often placed at a lower position than the key (about at the level of the subject's face). The backlight (a.k.a. the rim, hair, or shoulder light) shines on the subject from behind, often (but not necessarily) to one side or the other."
+                        }
+                    ]
+                },
+                "The key light to fill light ratio is usually 2:1, and the relationship of intensity and placement can change depending on the goals.[1]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "Generally, the key light to fill light ratio is 2:1. The relationship of intensity and placement can change depending on your goals, but the above ratio will give you a relatively cinematic look for narrative filmmaking and even some YouTube videos."
+                        }
+                    ]
+                },
+                "Therefore, the two most basic types of light in a scene are the key and the rim.": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": null,
+                    "citation_annotations": null
+                }
+            }
+        }
+    },
+    {
+        "id": "4969a0b33d8f474259c3ea9c50d63371266eaf2af44bd6d7693163ae0178b0b3-bing_chat",
+        "query": "Should violent video games and films be more tightly regulated?",
+        "response": "There are different opinions on this topic. Some people believe that violent video games and films can have a desensitizing impact on young minds[1]. Others argue that these games provide opportunities for children to explore consequences of violent actions and release their stress and anger (catharsis) in the game, leading to less real-world aggression[1].\n\nIn 2011, the Supreme Court ruled that a California law restricting sales of violent video games to minors violated the right to free speech[2]. What do you think?",
+        "split": "davinci_debate",
+        "system_name": "bing_chat",
+        "citations": [
+            {
+                "text": "[1]",
+                "start_index": 145,
+                "end_index": 148,
+                "link_target": "https://www.britannica.com/story/pro-and-con-violent-video-games"
+            },
+            {
+                "text": "[1]",
+                "start_index": 355,
+                "end_index": 358,
+                "link_target": "https://www.britannica.com/story/pro-and-con-violent-video-games"
+            },
+            {
+                "text": "[2]",
+                "start_index": 500,
+                "end_index": 503,
+                "link_target": "https://legaltalknetwork.com/podcasts/lawyer-2-lawyer/2018/03/should-we-regulate-video-game-violence/"
+            }
+        ],
+        "statements_to_citation_texts": {
+            "There are different opinions on this topic.": [],
+            "Some people believe that violent video games and films can have a desensitizing impact on young minds[1].": [
+                "[1]"
+            ],
+            "Others argue that these games provide opportunities for children to explore consequences of violent actions and release their stress and anger (catharsis) in the game, leading to less real-world aggression[1].": [
+                "[1]"
+            ],
+            "In 2011, the Supreme Court ruled that a California law restricting sales of violent video games to minors violated the right to free speech[2].": [
+                "[2]"
+            ],
+            "What do you think?": []
+        },
+        "annotation": {
+            "fluency": "Strongly Agree",
+            "perceived_utility": "Strongly Agree",
+            "statement_to_annotation": {
+                "There are different opinions on this topic.": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": null,
+                    "citation_annotations": null
+                },
+                "Some people believe that violent video games and films can have a desensitizing impact on young minds[1].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        }
+                    ]
+                },
+                "Others argue that these games provide opportunities for children to explore consequences of violent actions and release their stress and anger (catharsis) in the game, leading to less real-world aggression[1].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        }
+                    ]
+                },
+                "In 2011, the Supreme Court ruled that a California law restricting sales of violent video games to minors violated the right to free speech[2].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "In the 2011 Supreme Court ruling of Brown v. Entertainment Merchants Association, it was decided that California law restricting sales of violent video games to minors violated the right to free speech."
+                        }
+                    ]
+                },
+                "What do you think?": {
+                    "statement_is_verification_worthy": false,
+                    "statement_supported": null,
+                    "citation_annotations": null
+                }
+            }
+        }
+    },
+    {
+        "id": "e6848ef70f4d886af8237eab272f21f374cb325432615248a5c28ebf2a8e49b0-perplexity",
+        "query": "Why do electonics that display the time (ie microwaves) not have a small battery to ensure the time to saved in the event a power outage?",
+        "response": "Electronics that display the time, such as microwaves, do not have a small battery to ensure the time is saved in the event of a power outage because it would add cost to the product[1]. Most microwave ovens stand idle in \"standby\" mode and consume very little power[2]. Power outages can cause damage to computers and electronics[3], but this is not related to the question.",
+        "split": "eli5_live",
+        "system_name": "perplexity",
+        "citations": [
+            {
+                "text": "[1]",
+                "start_index": 182,
+                "end_index": 185,
+                "link_target": "https://www.reddit.com/r/explainlikeimfive/comments/2jmejv/eli5_why_do_electonics_that_display_the_time_ie/"
+            },
+            {
+                "text": "[2]",
+                "start_index": 266,
+                "end_index": 269,
+                "link_target": "https://www.economist.com/technology-quarterly/2006/03/09/pulling-the-plug-on-standby-power"
+            },
+            {
+                "text": "[3]",
+                "start_index": 330,
+                "end_index": 333,
+                "link_target": "https://pennyelectric.com/blog/the-effects-of-power-outages-on-computers-electronics/"
+            }
+        ],
+        "statements_to_citation_texts": {
+            "Electronics that display the time, such as microwaves, do not have a small battery to ensure the time is saved in the event of a power outage because it would add cost to the product[1].": [
+                "[1]"
+            ],
+            "Most microwave ovens stand idle in \"standby\" mode and consume very little power[2].": [
+                "[2]"
+            ],
+            "Power outages can cause damage to computers and electronics[3], but this is not related to the question.": [
+                "[3]"
+            ]
+        },
+        "annotation": {
+            "fluency": "Agree",
+            "perceived_utility": "Agree",
+            "statement_to_annotation": {
+                "Electronics that display the time, such as microwaves, do not have a small battery to ensure the time is saved in the event of a power outage because it would add cost to the product[1].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Partially Supports Statement",
+                            "evidence": "The manufacturer can save the effort and cost of putting one in."
+                        }
+                    ]
+                },
+                "Most microwave ovens stand idle in \"standby\" mode and consume very little power[2].": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Citation Inaccessible",
+                            "evidence": null
+                        }
+                    ]
+                },
+                "Power outages can cause damage to computers and electronics[3], but this is not related to the question.": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[3]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "id": "b5bbf54bfa3cde36263907bf2f1f068c87965711da739044ead5e1ae74fb5112-you",
+        "query": "a funny thing happened on the way to the forum cast of characters",
+        "response": "The cast of characters in \"A Funny Thing Happened on the Way to the Forum\" includes Zero Mostel as Pseudolus (Also Prologus), Phil Silvers as Hysterium [1][2], Buster Keaton as Erronius, Michael Crawford as Miles Gloriosus, Jack Gilford as Senex, Annette Andre as Domina, Michael Hordern as Lycus, Leon Greene as Marcus Lycus, and a number of other characters.",
+        "split": "nq_list_without_short_answer",
+        "system_name": "you",
+        "citations": [
+            {
+                "text": "[1]",
+                "start_index": 152,
+                "end_index": 155,
+                "link_target": "https://www.imdb.com/title/tt0060438/"
+            },
+            {
+                "text": "[2]",
+                "start_index": 155,
+                "end_index": 158,
+                "link_target": "https://www.imdb.com/title/tt0060438/fullcredits"
+            }
+        ],
+        "statements_to_citation_texts": {
+            "The cast of characters in \"A Funny Thing Happened on the Way to the Forum\" includes Zero Mostel as Pseudolus (Also Prologus), Phil Silvers as Hysterium [1][2], Buster Keaton as Erronius, Michael Crawford as Miles Gloriosus, Jack Gilford as Senex, Annette Andre as Domina, Michael Hordern as Lycus, Leon Greene as Marcus Lycus, and a number of other characters.": [
+                "[1]",
+                "[2]"
+            ]
+        },
+        "annotation": {
+            "fluency": "Strongly Agree",
+            "perceived_utility": "Strongly Agree",
+            "statement_to_annotation": {
+                "The cast of characters in \"A Funny Thing Happened on the Way to the Forum\" includes Zero Mostel as Pseudolus (Also Prologus), Phil Silvers as Hysterium [1][2], Buster Keaton as Erronius, Michael Crawford as Miles Gloriosus, Jack Gilford as Senex, Annette Andre as Domina, Michael Hordern as Lycus, Leon Greene as Marcus Lycus, and a number of other characters.": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        },
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "id": "63f55e48d26dc6a1deced8e3ef3090fc00d4e5244076523c4902c5533b5d9bed-you",
+        "query": "who's playing the football game on thanksgiving day",
+        "response": "On Thanksgiving Day 2022, the Buffalo Bills (7-3) will be playing the Detroit Lions (4-6), the New York Giants (7-3) will be playing the Dallas Cowboys [1], the New England Patriots (9-1) will be playing the Minnesota Vikings (4-6), and the Baltimore Ravens (6-4) will be playing the Pittsburgh Steelers (9-1).",
+        "split": "nq_no_long_answer",
+        "system_name": "you",
+        "citations": [
+            {
+                "text": "[1]",
+                "start_index": 152,
+                "end_index": 155,
+                "link_target": "https://www.nfl.com/news/2022-nfl-thanksgiving-tripleheader-game-times-matchups-how-to-watch-etc"
+            }
+        ],
+        "statements_to_citation_texts": {
+            "On Thanksgiving Day 2022, the Buffalo Bills (7-3) will be playing the Detroit Lions (4-6), the New York Giants (7-3) will be playing the Dallas Cowboys [1], the New England Patriots (9-1) will be playing the Minnesota Vikings (4-6), and the Baltimore Ravens (6-4) will be playing the Pittsburgh Steelers (9-1).": [
+                "[1]"
+            ]
+        },
+        "annotation": {
+            "fluency": "Strongly Agree",
+            "perceived_utility": "Strongly Agree",
+            "statement_to_annotation": {
+                "On Thanksgiving Day 2022, the Buffalo Bills (7-3) will be playing the Detroit Lions (4-6), the New York Giants (7-3) will be playing the Dallas Cowboys [1], the New England Patriots (9-1) will be playing the Minnesota Vikings (4-6), and the Baltimore Ravens (6-4) will be playing the Pittsburgh Steelers (9-1).": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "id": "53acd52b1d6ddb4224ed231c2e066a6950599712bcb0e1142b9e17803505ecd0-neeva",
+        "query": "what is the longest made field goal in nfl history",
+        "response": "Justin Tucker holds the record for the longest field goal in NFL history, having kicked a 66-yarder in 2021.[1][2]Matt Prater had previously held the record with a 64-yarder in 2013[3], while Tom Dempsey and Jason Elam had both kicked 63-yarders in 1970 and 1998 respectively.[3]The longest field goal attempt in NFL history is held by Sebastian Janikowski at 76 yards[1], while the longest field goal attempt in college football history is 69 yards, set by Abilene Christian's Ove Johansson in 1976.[1]",
+        "split": "nq_paragraph_without_short_answer",
+        "system_name": "neeva",
+        "citations": [
+            {
+                "text": "[1]",
+                "start_index": 108,
+                "end_index": 111,
+                "link_target": "https://www.sbnation.com/nfl/2021/9/27/22695783/nfl-longest-field-goals-justin-tucker-66-yards"
+            },
+            {
+                "text": "[2]",
+                "start_index": 111,
+                "end_index": 114,
+                "link_target": "https://sportsnaut.com/longest-field-goal-in-nfl-history/"
+            },
+            {
+                "text": "[3]",
+                "start_index": 181,
+                "end_index": 184,
+                "link_target": "https://sports.nbcsports.com/2022/10/04/what-are-the-longest-field-goal-in-nfl-history/"
+            },
+            {
+                "text": "[3]",
+                "start_index": 276,
+                "end_index": 279,
+                "link_target": "https://sports.nbcsports.com/2022/10/04/what-are-the-longest-field-goal-in-nfl-history/"
+            },
+            {
+                "text": "[1]",
+                "start_index": 368,
+                "end_index": 371,
+                "link_target": "https://www.sbnation.com/nfl/2021/9/27/22695783/nfl-longest-field-goals-justin-tucker-66-yards"
+            },
+            {
+                "text": "[1]",
+                "start_index": 500,
+                "end_index": 503,
+                "link_target": "https://www.sbnation.com/nfl/2021/9/27/22695783/nfl-longest-field-goals-justin-tucker-66-yards"
+            }
+        ],
+        "statements_to_citation_texts": {
+            "Justin Tucker holds the record for the longest field goal in NFL history, having kicked a 66-yarder in 2021.[1][2]": [
+                "[1]",
+                "[2]"
+            ],
+            "Matt Prater had previously held the record with a 64-yarder in 2013[3], while Tom Dempsey and Jason Elam had both kicked 63-yarders in 1970 and 1998 respectively.[3]": [
+                "[3]"
+            ],
+            "The longest field goal attempt in NFL history is held by Sebastian Janikowski at 76 yards[1], while the longest field goal attempt in college football history is 69 yards, set by Abilene Christian's Ove Johansson in 1976.[1]": [
+                "[1]"
+            ]
+        },
+        "annotation": {
+            "fluency": "Strongly Agree",
+            "perceived_utility": "Strongly Agree",
+            "statement_to_annotation": {
+                "Justin Tucker holds the record for the longest field goal in NFL history, having kicked a 66-yarder in 2021.[1][2]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "Two kickers attempted to break the NFL record for the longest field goal ever in Week 3 of the 2021 NFL season. The longest field goals in NFL history, updated after Justin Tucker\u2019s 66-yard game-winner."
+                        },
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "A tough 0-2 start for the 2021 Detroit Lions got even tougher when Baltimore Ravens kicker Justin Tucker connected on a 66-yard field goal kick as time expired for the win. Tucker\u2019s kick set a new record for the longest field goal in NFL history."
+                        }
+                    ]
+                },
+                "Matt Prater had previously held the record with a 64-yarder in 2013[3], while Tom Dempsey and Jason Elam had both kicked 63-yarders in 1970 and 1998 respectively.[3]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "Yes",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[3]",
+                            "citation_supports": "Citation Completely Supports Statement",
+                            "evidence": "Tucker\u2019s kick broke the previous record that was set back in 2013. Cardinals kicker Matt Prater was the previous record holder with a kick of 64 yards against the Tennessee Titans. The first kick in NFL history of 63 yards happened in 1970 when Tom Dempsey of New Orleans sent a 63-yard kick through the uprights. 63 yards - Jason Elam, Denver vs. Jacksonville, Oct. 25, 1998"
+                        }
+                    ]
+                },
+                "The longest field goal attempt in NFL history is held by Sebastian Janikowski at 76 yards[1], while the longest field goal attempt in college football history is 69 yards, set by Abilene Christian's Ove Johansson in 1976.[1]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "id": "d25633747e76a14ff06e5284ce9964e743582a19a3dcfe5453c28c91878e12a0-neeva",
+        "query": "how are pitchers voted into the all star game",
+        "response": "Pitchers are voted into the All-Star Game by a combination of fan ballot, player ballot, and the Commissioner's Office. Fans vote for eight starters in the NL and nine in the AL, including one catcher, one player at each infield position, three outfielders, and in the case of the AL, a designated hitter. Major league players vote for eight position players in each league, plus the designated hitter for the AL, as well as five starting pitchers and three relievers. The Commissioner's Office is responsible for finishing out the roster, selecting eight players in the NL and six in the AL.[1][2][3]",
+        "split": "nq_list_without_short_answer",
+        "system_name": "neeva",
+        "citations": [
+            {
+                "text": "[1]",
+                "start_index": 592,
+                "end_index": 595,
+                "link_target": "https://www.mlb.com/news/all-star-game-roster-rules-faq-c239654292"
+            },
+            {
+                "text": "[2]",
+                "start_index": 595,
+                "end_index": 598,
+                "link_target": "https://www.mlb.com/news/2021-mlb-all-star-game-faq"
+            },
+            {
+                "text": "[3]",
+                "start_index": 598,
+                "end_index": 601,
+                "link_target": "https://www.truebluela.com/all-star-game/22554412/mlb-all-star-roster-selection-faq"
+            }
+        ],
+        "statements_to_citation_texts": {
+            "Pitchers are voted into the All-Star Game by a combination of fan ballot, player ballot, and the Commissioner's Office.": [],
+            "Fans vote for eight starters in the NL and nine in the AL, including one catcher, one player at each infield position, three outfielders, and in the case of the AL, a designated hitter.": [],
+            "Major league players vote for eight position players in each league, plus the designated hitter for the AL, as well as five starting pitchers and three relievers.": [],
+            "The Commissioner's Office is responsible for finishing out the roster, selecting eight players in the NL and six in the AL.[1][2][3]": [
+                "[1]",
+                "[2]",
+                "[3]"
+            ]
+        },
+        "annotation": {
+            "fluency": "Strongly Agree",
+            "perceived_utility": "Strongly Agree",
+            "statement_to_annotation": {
+                "Pitchers are voted into the All-Star Game by a combination of fan ballot, player ballot, and the Commissioner's Office.": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": null,
+                    "citation_annotations": null
+                },
+                "Fans vote for eight starters in the NL and nine in the AL, including one catcher, one player at each infield position, three outfielders, and in the case of the AL, a designated hitter.": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": null,
+                    "citation_annotations": null
+                },
+                "Major league players vote for eight position players in each league, plus the designated hitter for the AL, as well as five starting pitchers and three relievers.": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": null,
+                    "citation_annotations": null
+                },
+                "The Commissioner's Office is responsible for finishing out the roster, selecting eight players in the NL and six in the AL.[1][2][3]": {
+                    "statement_is_verification_worthy": true,
+                    "statement_supported": "No",
+                    "citation_annotations": [
+                        {
+                            "citation_text": "[1]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        },
+                        {
+                            "citation_text": "[2]",
+                            "citation_supports": "Citation Provides No Support for Statement",
+                            "evidence": null
+                        },
+                        {
+                            "citation_text": "[3]",
+                            "citation_supports": "Citation Completely Supports but Also Refutes Statement",
+                            "evidence": null
+                        }
+                    ]
+                }
+            }
+        }
+    }
+]
